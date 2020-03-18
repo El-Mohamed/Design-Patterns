@@ -2,18 +2,22 @@ namespace Signleton_Pattern
 {
 
     // Rename it to own class
-    public sealed class Singleton
+
+    public sealed class Singleton2  // Threadsafe, the first version was not
     {
 
-        private static volatile Singleton instance;
+        //The volatile keyword ensures that multiple threads handle the uniqueInstance 
+        //variable correctly when it is being initialized to the Singleton instance.
+
+        private static volatile Singleton2 instance;
         private static object syncRoot = new object();
 
-        private Singleton()
+        private Singleton2()
         {
 
         }
 
-        public static Singleton GetInstance
+        public static Singleton2 GetInstance
         {
             get
             {
@@ -23,7 +27,7 @@ namespace Signleton_Pattern
                     {
                         if (instance == null)
                         {
-                            instance = new Singleton();
+                            instance = new Singleton2();
                         }
                     }
                 }
