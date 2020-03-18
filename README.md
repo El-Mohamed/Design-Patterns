@@ -1,1 +1,5 @@
-Design-Patterns
+# Design-Patterns
+
+## Strategy Pattern
+* Ducks
+
