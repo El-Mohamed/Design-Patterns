@@ -1,4 +1,4 @@
-namespace Signleton_Pattern
+namespace Singleton_Pattern
 {
     public class Singleton1
     {

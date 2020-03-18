@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Signleton_Pattern</RootNamespace>
+    <RootNamespace>Singleton_Pattern</RootNamespace>
   </PropertyGroup>
 
 </Project>

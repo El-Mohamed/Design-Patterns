@@ -1,4 +1,4 @@
-namespace Signleton_Pattern
+namespace Singleton_Pattern
 {
 
     // Rename it to own class

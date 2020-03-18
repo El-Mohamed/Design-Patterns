@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Signleton_Pattern
+namespace Singleton_Pattern
 {
     class Program
     {
