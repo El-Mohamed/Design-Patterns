@@ -30,7 +30,6 @@ namespace Signleton_Pattern
 
                 return instance;
             }
-
         }
 
     }
