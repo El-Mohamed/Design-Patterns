@@ -6,7 +6,16 @@ namespace State_Pattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Car myCar = new Car();
+
+            // Car is stopped in constructor
+
+            myCar.Drive();
+            myCar.Drive();
+
+            myCar.Brake();
+            myCar.Brake();
+
         }
     }
 }
