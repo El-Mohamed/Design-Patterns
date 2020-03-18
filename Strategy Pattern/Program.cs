@@ -13,7 +13,7 @@ namespace Strategy_Pattern
             normalDuck.performQuack();
 
             specialDuck.performFly();
-            normalDuck.performQuack();
+            specialDuck.performQuack();
         }
     }
 }
