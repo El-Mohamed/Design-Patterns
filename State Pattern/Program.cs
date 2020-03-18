@@ -6,7 +6,14 @@ namespace Strategy_Pattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            NormalDuck normalDuck = new NormalDuck();
+            SpecialDuck specialDuck = new SpecialDuck();
+
+            normalDuck.performFly();
+            normalDuck.performQuack();
+
+            specialDuck.performFly();
+            normalDuck.performQuack();
         }
     }
 }
