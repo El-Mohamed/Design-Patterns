@@ -13,6 +13,7 @@ namespace State_Pattern
         {
             System.Console.WriteLine("Car is breaking.....");
             car.setState(car.stoppedState);
+            // car.state = car.stoppedState
         }
 
         public void Drive()

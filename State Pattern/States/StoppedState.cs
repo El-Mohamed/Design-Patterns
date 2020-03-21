@@ -18,6 +18,7 @@ namespace State_Pattern
         {
             System.Console.WriteLine("Car starts driving...");
             car.setState(car.drivingState);
+            // car.state = car.drivingState
         }
     }
 }

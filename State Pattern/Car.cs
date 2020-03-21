@@ -24,6 +24,7 @@ namespace State_Pattern
             state.Brake();
         }
 
+        // This method is not needed 
         public void setState(State state)
         {
             this.state = state;
