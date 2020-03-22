@@ -1,5 +1,5 @@
 # Design Patterns
-Code Examples in C#
+Code Examples in C# (Separate Console Apps For Each Pattern)
 
 ## Todo List
 
@@ -7,7 +7,7 @@ Code Examples in C#
 - [ ] Observer
 - [x] Singleton
 - [ ] Decorator
-- [ ] Command
+- [x] Command
 - [x] State 
 
 ## Strategy Pattern
@@ -18,3 +18,8 @@ Code Examples in C#
 
 ## State Pattern
 * Car
+
+## Command Pattern
+* Simple Light Bulb
+* Remote With Mutltiple Slots
+* Fan With States
