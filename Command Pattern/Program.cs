@@ -4,7 +4,7 @@ namespace Command_Pattern
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args)                                     // Client
         {
             // Example 1
             SimpleRemoteControl remote = new SimpleRemoteControl();         // Invoker
