@@ -35,6 +35,25 @@ namespace Command_Pattern
             remote2.OffButtonWasPressed(1);
 
             remote2.UndoButtonWasPressed();
+
+            Example 3
+
+            AdvancedRemote remote3 = new AdvancedRemote();
+
+            Fan fan = new Fan();
+
+            FanHighCommand fanHighCommand = new FanHighCommand(fan);
+            FanMeduimCommand fanMeduimCommand = new FanMeduimCommand(fan);
+            FanLowCommand fanLowCommand = new FanLowCommand(fan);
+            FanOffCommand fanOffCommand = new FanOffCommand(fan);
+
+            // Remote from Example 2 Reused
+            remote3.SetCommand(0, fanHighCommand, fanOffCommand);
+            remote3.SetCommand(1, fanMeduimCommand, fanOffCommand);
+
+            remote3.OnButtonWasPressed(0);              // High
+            remote3.OffButtonWasPressed(0);             // Off
+            remote3.UndoButtonWasPressed();             // Back To High
         }
     }
 }
