@@ -6,5 +6,10 @@ namespace Command_Pattern
         {
             // Do Nothing
         }
+
+        public void undo()
+        {
+
+        }
     }
 }

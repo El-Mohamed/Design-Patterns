@@ -3,6 +3,7 @@ namespace Command_Pattern
     public class SimpleRemoteControl
     {
         Command slot;
+        Command undoCommand;
 
         public SimpleRemoteControl()
         {
@@ -17,6 +18,12 @@ namespace Command_Pattern
         public void ButtonWasPressed()
         {
             slot.execute();
+            undoCommand = slot;
+        }
+
+        public void UndoButtonWasPressed()
+        {
+            undoCommand.undo();
         }
     }
 }

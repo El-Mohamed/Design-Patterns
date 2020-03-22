@@ -13,5 +13,10 @@ namespace Command_Pattern
         {
             lightBulb.On();
         }
+
+        public void undo()
+        {
+            lightBulb.Off();
+        }
     }
 }

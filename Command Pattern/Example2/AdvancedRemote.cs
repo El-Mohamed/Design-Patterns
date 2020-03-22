@@ -4,7 +4,7 @@ namespace Command_Pattern
     {
         Command[] onCommands;
         Command[] offCommands;
-
+        Command undoCommand;
         public AdvancedRemote()
         {
             onCommands = new Command[2];
@@ -27,11 +27,18 @@ namespace Command_Pattern
         public void OnButtonWasPressed(int slot)
         {
             onCommands[slot].execute();
+            undoCommand = onCommands[slot];
         }
 
         public void OffButtonWasPressed(int slot)
         {
             offCommands[slot].execute();
+            undoCommand = offCommands[slot];
+        }
+
+        public void UndoButtonWasPressed()
+        {
+            undoCommand.undo();
         }
     }
 }

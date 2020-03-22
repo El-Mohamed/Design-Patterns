@@ -6,5 +6,10 @@ namespace Command_Pattern
         {
             System.Console.WriteLine("Light Turning on..");
         }
+
+        public void Off()
+        {
+            System.Console.WriteLine("Light Turning Off..");
+        }
     }
 }

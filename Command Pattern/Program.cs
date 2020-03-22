@@ -12,6 +12,7 @@ namespace Command_Pattern
             LightOnCommand lightOnCommand = new LightOnCommand(light);      // Command
             remote.SetCommand(lightOnCommand);
             remote.ButtonWasPressed();
+            remote.UndoButtonWasPressed();
 
             // Example 2
             AdvancedRemote remote2 = new AdvancedRemote();
@@ -32,6 +33,8 @@ namespace Command_Pattern
             remote2.OnButtonWasPressed(1);
             remote2.OffButtonWasPressed(0);
             remote2.OffButtonWasPressed(1);
+
+            remote2.UndoButtonWasPressed();
         }
     }
 }

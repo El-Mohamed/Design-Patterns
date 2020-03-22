@@ -13,5 +13,10 @@ namespace Command_Pattern
         {
             garageDoor.Down();
         }
+
+        public void undo()
+        {
+            garageDoor.Up();
+        }
     }
 }

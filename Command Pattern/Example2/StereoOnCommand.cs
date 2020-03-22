@@ -13,5 +13,10 @@ namespace Command_Pattern
         {
             stereo.On();
         }
+
+        public void undo()
+        {
+            stereo.Off();
+        }
     }
 }
