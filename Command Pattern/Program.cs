@@ -36,7 +36,7 @@ namespace Command_Pattern
 
             remote2.UndoButtonWasPressed();
 
-            Example 3
+            // Example 3
 
             AdvancedRemote remote3 = new AdvancedRemote();
 
