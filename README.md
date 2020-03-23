@@ -23,3 +23,4 @@ Code Examples in C# (Separate Console Apps For Each Pattern)
 * Simple Light Bulb
 * Remote With Mutltiple Slots
 * Fan With States
+* Macro Commands
