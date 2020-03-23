@@ -54,6 +54,25 @@ namespace Command_Pattern
             remote3.OnButtonWasPressed(0);              // High
             remote3.OffButtonWasPressed(0);             // Off
             remote3.UndoButtonWasPressed();             // Back To High
+
+            // Example 4
+            RoomTV roomTV = new RoomTV();
+            HotTub hotTub = new HotTub();
+            HotTubOnCommand hotTubOnCommand = new HotTubOnCommand(hotTub);
+
+            TVOnCommand tvOnCommand = new TVOnCommand(roomTV);
+            Command[] PartyCommands = new Command[2];
+            PartyCommands[0] = hotTubOnCommand;
+            PartyCommands[1] = tvOnCommand;
+
+
+            MacroCommand macroCommand = new MacroCommand(PartyCommands);    // Put All Commands in this MacroCommand
+
+            AdvancedRemote remote4 = new AdvancedRemote();
+            remote4.SetCommand(0, macroCommand, new NoCommand());           // No Command for Off Button
+            remote4.OnButtonWasPressed(0);
+
+
         }
     }
 }
