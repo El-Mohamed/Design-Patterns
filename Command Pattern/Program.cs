@@ -71,8 +71,6 @@ namespace Command_Pattern
             AdvancedRemote remote4 = new AdvancedRemote();
             remote4.SetCommand(0, macroCommand, new NoCommand());           // No Command for Off Button
             remote4.OnButtonWasPressed(0);
-
-
         }
     }
 }
