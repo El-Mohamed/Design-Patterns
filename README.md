@@ -9,6 +9,7 @@ Code Examples in C# (Separate Console Apps For Each Pattern)
 - [ ] Decorator
 - [x] Command
 - [x] State 
+- [x] Factory
 
 ## Strategy Pattern
 * Ducks
@@ -24,3 +25,6 @@ Code Examples in C# (Separate Console Apps For Each Pattern)
 * Remote With Mutltiple Slots
 * Fan With States
 * Macro Commands
+
+## Factory Pattern
+* Pizza & Pizza Store
