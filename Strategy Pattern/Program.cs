@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Strategy_Pattern
+﻿namespace Strategy_Pattern
 {
     class Program
     {

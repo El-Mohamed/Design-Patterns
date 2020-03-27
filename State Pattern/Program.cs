@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace State_Pattern
+﻿namespace State_Pattern
 {
     class Program
     {

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Command_Pattern
+﻿namespace Command_Pattern
 {
     class Program
     {

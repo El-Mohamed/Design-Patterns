@@ -1,4 +1,5 @@
-namespace Strategy_Pattern {
+namespace Strategy_Pattern
+{
 
     public class FlyNoWay : FlyBehavior
     {

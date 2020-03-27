@@ -3,9 +3,9 @@ namespace Factory_Pattern
     public abstract class PizzaStore
     {
         public PizzaStore()
-        { 
-		
-		}
+        {
+
+        }
 
         public Pizza OrderPizza(string type)
         {
