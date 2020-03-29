@@ -4,7 +4,7 @@ Code Examples in C# (Separate Console Apps For Each Pattern)
 ## Todo List
 
 - [x] Strategy 
-- [ ] Observer
+- [x] Observer
 - [x] Singleton
 - [ ] Decorator
 - [x] Command
@@ -13,6 +13,9 @@ Code Examples in C# (Separate Console Apps For Each Pattern)
 
 ## Strategy Pattern
 * Ducks
+
+## Strategy Pattern
+* Price Data & Display
 
 ## Singleton Pattern
 * People
