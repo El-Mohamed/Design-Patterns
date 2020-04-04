@@ -1,6 +1,6 @@
 namespace Template_Method_Pattern
 {
-    public class Tea : caffeineBeverage
+    public class Tea : CaffeineBeverage
     {
         public override void AddCondiments()
         {

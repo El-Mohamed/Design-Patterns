@@ -1,6 +1,6 @@
 namespace Template_Method_Pattern
 {
-    public abstract class caffeineBeverage
+    public abstract class CaffeineBeverage
     {
         public void PrepareReceipe()
         {

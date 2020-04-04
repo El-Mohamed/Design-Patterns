@@ -6,7 +6,12 @@ namespace Template_Method_Pattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            CaffeineBeverage tea = new Tea();
+            CaffeineBeverage coffee = new Coffee();
+
+            tea.PrepareReceipe();
+            System.Console.WriteLine("\n");
+            coffee.PrepareReceipe();
         }
     }
 }
