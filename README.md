@@ -10,6 +10,7 @@ Code Examples in C# (Separate Console Apps For Each Pattern)
 - [x] Command
 - [x] State 
 - [x] Factory
+- [x] Template Method
 
 ## Strategy Pattern
 * Ducks
@@ -31,3 +32,6 @@ Code Examples in C# (Separate Console Apps For Each Pattern)
 
 ## Factory Pattern
 * Pizza & Pizza Store
+
+## Template Method Patternµ
+* Coffee & Tea
