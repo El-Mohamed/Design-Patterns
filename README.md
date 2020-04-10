@@ -6,7 +6,7 @@ Code Examples in C# (Separate Console Apps For Each Pattern)
 - [x] Strategy 
 - [x] Observer
 - [x] Singleton
-- [ ] Decorator
+- [x] Decorator
 - [x] Command
 - [x] State 
 - [x] Factory
@@ -20,6 +20,9 @@ Code Examples in C# (Separate Console Apps For Each Pattern)
 
 ## Singleton Pattern
 * People
+
+## Decorator
+* Beverages
 
 ## State Pattern
 * Car

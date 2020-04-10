@@ -6,7 +6,14 @@ namespace Decorator_Pattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Beverage beverage = new Expresso();
+            beverage.Size = BeverageSize.TALL;
+            System.Console.WriteLine(beverage.GetDescription());
+            System.Console.WriteLine(beverage.Cost());
+            System.Console.WriteLine("\n");
+            beverage = new Mocha(beverage);
+            System.Console.WriteLine(beverage.GetDescription());
+            System.Console.WriteLine(beverage.Cost());
         }
     }
 }
