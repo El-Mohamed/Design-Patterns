@@ -36,5 +36,5 @@ Code Examples in C# (Separate Console Apps For Each Pattern)
 ## Factory Pattern
 * Pizza & Pizza Store
 
-## Template Method Patternµ
+## Template Method Pattern
 * Coffee & Tea
