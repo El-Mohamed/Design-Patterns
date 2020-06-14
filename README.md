@@ -39,3 +39,6 @@ Code Examples in C# (Separate Console Apps For Each Pattern)
 
 ## Template Method Pattern
 * Coffee & Tea
+
+## Adapter Pattern
+* Ducks
