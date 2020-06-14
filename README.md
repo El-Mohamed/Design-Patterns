@@ -11,7 +11,7 @@ Code Examples in C# (Separate Console Apps For Each Pattern)
 - [x] State 
 - [x] Factory
 - [x] Template Method
-- [ ] Adapter
+- [x] Adapter
 
  ## Strategy Pattern
 * Ducks
